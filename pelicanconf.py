@@ -20,10 +20,9 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (
+    ('Real Python', 'https://realpython.com/team/jayazhane/'),
+)
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
@@ -39,3 +38,6 @@ DEFAULT_PAGINATION = 10
 THEME = "/home/jayascript/pelican-themes/alchemy/alchemy"
 
 SITEIMAGE = "/images/jaya-pic.png"
+
+ICONS = (('github', 'https://github.com/jayascript/'),
+          ('twitter', 'https://twitter.com/jayascript'),)
