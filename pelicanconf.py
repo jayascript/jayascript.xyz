@@ -37,3 +37,5 @@ DEFAULT_PAGINATION = 10
 #----------THEME SPECIFICATIONS----------#
 
 THEME = "/home/jayascript/pelican-themes/alchemy/alchemy"
+
+SITEIMAGE = "/images/jaya-pic.png"
