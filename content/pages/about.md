@@ -1,7 +1,7 @@
 title: About
 date: 2019-08-01
 
-Hi there! My name is Jaya, and I write scripts 😋 (See what I did there?)
+Hi there! My name is Jaya, and I write scripts ✌️ (See what I did there?)
 
 My language of choice is English. I also know Python, and am learning Bash and JavaScript.
 
@@ -14,7 +14,7 @@ In my free time, I like to:
 * immerse myself in stories (books, music, movies, TV; currently living in the 24th Century with TNG ❤️)
 * pretend to be a housewife (cooking, cleaning, and organizing)
 * frustrate my peers with my *pun*-chant for wordplay (I'm particularly [spond of foonerisms](https://en.wikipedia.org/wiki/Spoonerism) 🥄👀)
-* eat sugar! (I'll do ~almost~ anything for a piece of chocolate 🍩)
+* eat sugar! (I'll do almost anything for a piece of chocolate 🍩)
 * explore the nature of reality (consciousness, the origins of the universe, and life itself)
 
 Don't be shy! Come say hi 👋
