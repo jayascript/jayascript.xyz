@@ -1,7 +1,7 @@
 title: About
 date: 2019-08-01
 
-Hi there! My name is Jaya, and I write scripts ✌️ (See what I did there?)
+Hi there! My name is Jaya, and I write scripts. (See what I did there?)
 
 My language of choice is English. I also know Python, and am learning Bash and JavaScript.
 
