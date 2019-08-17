@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Contact</title>
+  </head>
+  <body>
+    Get in touch!
+
+    <form id="contactform" method="post">
+      <input type="text" name="name" placeholder="Name" required>
+      <input type="email" name="_replyto" placeholder="Email Address" required>
+      <input type="hidden" name="_subject" value="Contact Request: jayascript.io" />
+      <textarea name="message" placeholder="Message" rows="8" cols="80"></textarea>
+      <input type="text" name="_gotcha" style="display:none" />
+      <input type="submit" value="Send">
+    </form>
+
+    <script type="text/javascript">
+      var contactform = document.getElementById('contactform');
+      contactform.setAttribute('action', '//formspree.io/' + 'jayascript' + '@' + 'pm' + '.' + 'me');
+    </script>
+
+  </body>
+</html>
