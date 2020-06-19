@@ -41,3 +41,5 @@ SITEIMAGE = "/images/jaya-pic.png"
 
 ICONS = (('github', 'https://github.com/jayascript/'),
           ('twitter', 'https://twitter.com/jayascript'),)
+
+HIDE_AUTHORS = True
