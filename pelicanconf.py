@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Jaya Z.'
 SITENAME = 'JayaScript'
+SITESUBTITLE = 'Linux, Python, Data Science'
 SITEURL = ''
 
 PATH = 'content'
@@ -37,6 +38,10 @@ DEFAULT_PAGINATION = 10
 #----------THEME SPECIFICATIONS----------#
 
 THEME = "themes/pelican-alchemy/alchemy"
+
+THEME_CSS_OVERRIDES = [
+    "https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap",
+]
 
 SITEIMAGE = "/images/data.png"
 
