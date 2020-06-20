@@ -21,7 +21,8 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-    ('Real Python', 'https://realpython.com/team/jayazhane/'),
+    ('Home', '/'),
+    ('Categories', '/categories.html'),
 )
 
 # Social widget
