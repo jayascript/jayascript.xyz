@@ -38,7 +38,7 @@ DEFAULT_PAGINATION = 10
 
 THEME = "themes/pelican-alchemy/alchemy"
 
-SITEIMAGE = "/images/jaya-pic.png"
+SITEIMAGE = "/images/data.png"
 
 ICONS = (('github', 'https://github.com/jayascript/'),
           ('twitter', 'https://twitter.com/jayascript'),)
