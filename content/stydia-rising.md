@@ -1,9 +1,11 @@
 Title: Stydia Rising
 Date: 2016-05-01
 Modified: 2020-06-19
+Lang: en
 Category: Projects
-Tags: data analysis, python, sql, tableau, twitter
 Slug: projects/stydia-rising
+Cover: images/articles/stydia-rising/Stydia Premiere hashtags limit 1.png
+Tags: data analysis, python, sql, tableau, twitter
 Summary: An analysis of Twitter reactions to the Teen Wolf S05E16 premiere.
 
 # An Analysis of Twitter Reactions to the Teen Wolf S05E16 Premiere
