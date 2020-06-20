@@ -26,7 +26,7 @@ Click the section you would like to jump to:
 * [Discussion](#discussion)
     * [Debug](#debug)
     * [Directions](#directions)
-    * [Disseminate](#disseminate)
+* [Disseminate](#disseminate)
 
 ## <a id="description"></a>Description
 
@@ -428,7 +428,7 @@ Overall I am very happy with this project and consider it a great success!
 2. **Consolidate the scripts into a seamless program.** This wasn't something I set out to do, but I think it could be helpful. I know that lots of programs exist already to perform Twitter analysis, but I might like to challenge myself by creating a version of my own.
 3. **Issue a pull request to the GOT model.** I found it very helpful to be able to write the tweets out to a database in real time instead of reading them all into memory. I know that there are others out there who may also need to pull tens of thousands of tweets that were written in the past. I hope to adapt my code to a general usage and issue a pull request to the GOT model on GitHub so that others can benefit from this as well.
 
-### <a id="disseminate"></a>Disseminate
+## <a id="disseminate"></a>Disseminate
 
 * [Aylien's Super Bowl 50 Analysis](http://blog.aylien.com/post/140037240328/super-bowl-50-according-to-twitter-sentiment)
 * [Tableau Public Visualization Tool](https://public.tableau.com/s/)
