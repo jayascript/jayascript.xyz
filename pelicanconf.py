@@ -10,8 +10,11 @@ SITEURL = ''
 PATH = 'content'
 
 TIMEZONE = 'America/New_York'
-
 DEFAULT_LANG = 'en'
+LOCALE = ('en_US.utf8',)
+DATE_FORMATS = {
+    'en': ('en_US.utf8', '%Y-%m-%d')
+}
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
