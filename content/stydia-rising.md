@@ -28,7 +28,7 @@ Click the section you would like to jump to:
     * [Directions](#directions)
     * [Disseminate](#disseminate)
 
-## Description
+## <a id="description"></a>Description
 
 I analyzed 80,000+ tweets tagged #TeenWolf and 34,000+ tweets tagged #Stydia. "Stydia" is the blended couple name of Stiles and Lydia, two characters on the MTV drama Teen Wolf. Many fans of the show "ship" these two couples; short for "relationship," to "ship" someone means to hope that they will officially get together on the show.
 
@@ -43,9 +43,9 @@ I was curious to see how Twitter reacted during that moment on Teen Wolf. Would 
 * Does the pattern of reaction repeat over several hours across the U.S. as the show airs in each respective timezone?
 * What was the overall sentiment during the episode?
 
-## Data
+## <a id="data"></a>Data
 
-### Discovery
+### <a id="discovery"></a>Discovery
 
 Before I started my project, I needed to **make sure that the data was even available** for collection. This is something that has slowed me down with previous projects. I started this project in March 2016, and the episode in question occurred at 9:00 PM EST on February 9, 2016.
 
@@ -59,7 +59,7 @@ I had to sit down and go the program to figure out where this was happening, and
 
 Finally I was able to get the program to write the tweets out to an SQLite3 database in real time. In this way I culled 80,000+ tweets for the #TeenWolf hashtag over the course of 6 days, and 34,000+ tweets for the #Stydia hashtag over the same period of time.
 
-### Download
+### <a id="download"></a>Download
 
 The coding portion of the project consisted of creating scripts to pull the tweets and write them to a database. Once I started the analysis, I create a few more scripts to help clean the data up and pull out the most important tweets.
 
@@ -162,7 +162,7 @@ The script produced a database of the following format:
   </p>
 </p>
 
-### Dissection
+### <a id="dissection"></a>Dissection
 
 As I'm still currently taking machine learning courses, I'm not yet at the point where I feel comfortable performing sentiment analysis on the data. As such, those questions (whether a tweet is pro- or anti-Stydia, what the overall sentiment during the episode premiere was) will have to be saved for future research endeavors.
 
@@ -409,26 +409,26 @@ I took the tweets for which location data was available and output their counts 
   </p>
 </p>
 
-## Discussion
+## <a id="discussion"></a>Discussion
 
 I managed to answer most of my pressing questions. I successfully visualized Twitter data for my favorite show during one of the most influential episodes for Stydia shippers. I was able to make a contribution to my fandom and I am very proud of myself for that. I also learned how to use a new tool (Tableau) with which I felt quite uncomfortable at first, but with more practice I quickly got the hang of it.
 
 Overall I am very happy with this project and consider it a great success!
 
-### Debug
+### <a id="debug"></a>Debug
 
 1. **It took entirely too long to get the GOT program working.** I spent way more time than necessary trying to pull the tweets. The very first thing I should have done when using somebody else's program is go through and read the code to see what it does. GOT has very little documentation so this should have been even more pressing. Next time I'll be sure to keep this in mind.
 2. **I did not calculate how much RAM I would need to run the program.** When I was first working with the GOT model I kept getting disk I/O errors and my laptop kept stalling out. Of course once I got the tweets to write out to a DB in real time this wasn't an issue, but I think it's important to learn how to calculate RAM and such for when I will need it in the future.
 3. **The project needed more organization.** Of course at the beginning I could not imagine the number of tweets I would get; the scope of the project evaded me at that time. While I did have separate directories for the code, the data, the documentation and the output, I could have done a better job keeping in its place. I ended up with a lot of files in the end, and a consistent naming scheme, for example, could have saved me a lot of confusion. I also may have benefited from using version control this time around. That is something I look forward to working more with in future projects.
 4. **The project needed clearer definition.** All I knew was that I wanted to get tweets and I wanted to look at them at one point in time. I didn't specify at the beginning how many tweets I wanted to collected, the date and time I wanted them to be from, and what exactly I wanted to do with them. I ended up collecting more data than I needed (which is not necessarily a bad thing), and writing extra scripts towards the end of the analysis to do things I hadn't thought of before. While this is to be expected, next time I look forward to created a solid project plan so that I can know more clearly what I want to do with my data before I get it.
 
-### Directions
+### <a id="directions"></a>Directions
 
 1. **Perform sentiment analysis on the dataset.** This is something that I got from the Super Bowl 50 analysis that I wanted to try for myself. What was the overall sentiment during the S05E16 episode? Did it change over time? Can we tell if a tweet is pro- or anti-Stydia? Fandom has interesting ways of representing positive sentiment (for example, the phrase "STYDIA VINES HURT SO MUCH" should actually be interpreted positively), so I wonder how current text analytics tools would work on fandom-derived data.
 2. **Consolidate the scripts into a seamless program.** This wasn't something I set out to do, but I think it could be helpful. I know that lots of programs exist already to perform Twitter analysis, but I might like to challenge myself by creating a version of my own.
 3. **Issue a pull request to the GOT model.** I found it very helpful to be able to write the tweets out to a database in real time instead of reading them all into memory. I know that there are others out there who may also need to pull tens of thousands of tweets that were written in the past. I hope to adapt my code to a general usage and issue a pull request to the GOT model on GitHub so that others can benefit from this as well.
 
-## Disseminate
+### <a id="disseminate"></a>Disseminate
 
 * [Aylien's Super Bowl 50 Analysis](http://blog.aylien.com/post/140037240328/super-bowl-50-according-to-twitter-sentiment)
 * [Tableau Public Visualization Tool](https://public.tableau.com/s/)
