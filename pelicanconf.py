@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Jaya Z.'
 SITENAME = 'JayaScript'
-SITESUBTITLE = 'Linux, Python, Data Science'
+SITESUBTITLE = 'Linux | Python | Data Science'
 SITEURL = ''
 
 PATH = 'content'
