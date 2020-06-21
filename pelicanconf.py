@@ -9,6 +9,7 @@ SITEURL = ''
 
 PATH = 'content'
 ARTICLE_PATHS = ['posts']
+STATIC_PATHS = ['images', 'files']
 
 TIMEZONE = 'America/New_York'
 DEFAULT_LANG = 'en'

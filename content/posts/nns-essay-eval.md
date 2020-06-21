@@ -4,7 +4,7 @@ Modified: 2020-06-20
 Lang: en
 Category: Projects
 Slug: projects/nns-essay-eval
-Cover: images/
+Cover: images/articles/nns-essay-eval/by-group-grammar.jpg
 Tags: statistics, excel, spss, data analysis
 Summary: An analysis of essay grading by native and non-native Japanese speakers.
 
@@ -195,18 +195,24 @@ On the other hand, non-native speakers may be coming to the essay expecting an e
 
 If the essay was a narrative essay, then native Japanese speakers could have been looking for this traditional structure. The essay writer was a non-native speaker of Japanese, and may not have been aware of traditional Japanese essay structure. The essay writer may have used a structure similar to "Intro-Body-Conclusion" which non-native Japanese speakers are very familiar with; thus, they would have rated the organization score highly. In contrast, native Japanese speakers looking for the traditional "build up-drawn out-twist" structure may have given the essay a much lower score for lacking this organization.
 
-### id="debug">Debug
+### <a id="debug"></a>Debug
 
 There's no guarantee that the non-native speakers came from the "West." Non-Native Japanese speakers could be from Korea, China, Taiwan, Kenya, Australia, Brazil, or any number of places from around the globe. Lumping them all together under the term "Non-Native Japanese speaker" fails to account for the wide linguistic variance of the group. The people in the non-native speaker group could be looking for any number of things.
 
 In contrast, the Native Japanese speaker group mostly likely contains people from just Japan, and perhaps Korea, China and Brazil. What I mean to say is that the pool of native Japanese speakers is much smaller than the pool of non-native Japanese speakers. As such, we could expect to see much less variance than if, for example, we'd have graded an essay in English or Chinese (which has many more flavors around the world).
 
-## <a id="directions"></a>Directions
+### <a id="directions"></a>Directions
 
 **Will the same grader give a different score to the same essay, based on organization alone?**
 
 Suppose two essays of similar content and grammar. The first essay is written in a traditional Japanese structure, and the second one written in a non-traditional Japanese structure. How would a group of Japanese speakers grade this essay? We saw a statistically significant difference on the organization score. We can determine if this is true by performing analysis on essays that share similar content and grammar, but differ in the organization.
 
-## id="disseminate">Disseminate
+## <a id="disseminate"></a>Disseminate
 
-A PDF generated from the tests in SPSS: <a href="http://jayascript.io/wp-content/uploads/2018/02/NNS_Evaluation.pdf">NNS_Evaluation</a>. Professor Yoshinori Watanabe's Research: <ul> <li style="list-style-type: none;"> <ul> <li style="list-style-type: none;"> <ul> <li><a href="http://rscdb.cc.sophia.ac.jp/Profiles/65/0006461/prof_e.html">Sophia University</a></li> <li><a href="https://researchmap.jp/read0061850/?lang=english">ResearchMap</a></li> </ul> </li> </ul> </li> </ul> Traditional Japanese essay structures: <ul> <li style="list-style-type: none;"> <ul> <li><a href="https://www.wasabi-jpn.com/how-to-speak-japanese/enhance-your-japanese-script-ki-sho-ten-ketsu/">Ki-Sho-Ten-Ketsu</a></li> <li><a href="https://www.wasabi-jpn.com/how-to-speak-japanese/distinguish-your-japanese-script-jo-ha-kyu-structure/">Jo-Ha-Kyu</a></li> </ul> </li> </ul>
+* A PDF generated from the tests in SPSS: [NNS_Evaluation.pdf](/files/NNS_Evaluation.pdf)
+* Professor Yoshinori Watanabe's Research:
+    * [Sophia University](http://rscdb.cc.sophia.ac.jp/Profiles/65/0006461/prof_e.html)
+    * [ResearchMap](https://researchmap.jp/read0061850/?lang=english)
+* Traditional Japanese essay structures:
+    * [Ki-Sho-Ten-Ketsu](https://www.wasabi-jpn.com/how-to-speak-japanese/enhance-your-japanese-script-ki-sho-ten-ketsu/)
+    * [Jo-Ha-Kyu](https://www.wasabi-jpn.com/how-to-speak-japanese/distinguish-your-japanese-script-jo-ha-kyu-structure/)
