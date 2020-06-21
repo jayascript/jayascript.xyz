@@ -4,21 +4,16 @@ Modified: 2020-05-18
 Lang: en
 Category: Publications
 Slug: publications/realpython-what-can-i-do-with-python
-Cover: images/articles/jayascript-site/jayascript-site_screenshot.jpg
-Tags: python, pelican, web development, git, markdown, html, css
-Summary: A simple portfolio site built with Pelican, a static site generator for Python.
+Cover: images/articles/publications/realpython-what-can-i-do-with-python.jpg
+Tags: python
+Summary: In this article, we offer several different projects, resources, and tutorials that you can use to start building things with Python.
 
-**Code Repo:** **View it on [GitHub](https://github.com/jayascript/jayascript.github.io)**
+> You’ve done it: you’ve finished a course or finally made it to the end of a book that teaches you the basics of programming with Python. You’ve mastered lists, dictionaries, classes, and maybe even some object oriented concepts.
 
-**Present Status:** <span style="color:orange">**under development**</span>
+> So… what next?
 
-**Tools Used:** Python, Pelican, Conda, Git, Markdown, HTML, CSS
+> Python is a very versatile programming language, with a plethora of uses in a variety of different fields. If you’ve grasped the basics of Python and are itching to build something with the language, then it’s time to figure out what your next step should be.
 
-**Skills Practiced:**
+> In this article, we offer several different projects, resources, and tutorials that you can use to start building things with Python.
 
-* virtual environments
-* web development
-    * static site generation
-    * custom stylesheets
-* version control
-    * git submodules
+**Read it on [Real Python](https://realpython.com/what-can-i-do-with-python/)**
