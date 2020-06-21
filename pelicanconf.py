@@ -50,7 +50,11 @@ THEME_CSS_OVERRIDES = [
 
 SITEIMAGE = "/images/data.png"
 
-ICONS = (('github', 'https://github.com/jayascript/'),
-          ('twitter', 'https://twitter.com/jayascript'),)
+ICONS = (
+    ('github', 'https://github.com/jayascript/'),
+    ('twitter', 'https://twitter.com/jayascript'),
+    ('linkedin', 'https://www.linkedin.com/in/jayazhane/'),
+    ('fa fa-book', 'https://realpython.com/team/jayazhane/'),
+)
 
 HIDE_AUTHORS = True
