@@ -5,7 +5,7 @@ Lang: en
 Category: Projects
 Slug: projects/hello-world-ml
 Cover: images/articles/hello-world-ml/hwml_007.png
-Tags: machine learning, python, stats, dataviz
+Tags: machine learning, python, statistics, dataviz
 Summary: Determining the best ML algorithm to predict the iris flowers dataset.
 
 # Determining the Best ML Algorithm to Predict the Iris Flowers Dataset
