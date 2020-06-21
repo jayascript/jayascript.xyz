@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Jaya Z.'
 SITENAME = 'JayaScript'
-SITESUBTITLE = '🐧 Linux 🐍 Python 💻 Developer 📉 Analytics'
+SITESUBTITLE = 'Linux · Python · Developer · Analytics'
 SITEURL = ''
 
 PATH = 'content'
