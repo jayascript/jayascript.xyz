@@ -8,6 +8,7 @@ SITESUBTITLE = '🐧 Linux 🐍 Python 💻 Developer 📉 Analytics'
 SITEURL = ''
 
 PATH = 'content'
+ARTICLE_PATHS = ['posts']
 
 TIMEZONE = 'America/New_York'
 DEFAULT_LANG = 'en'
