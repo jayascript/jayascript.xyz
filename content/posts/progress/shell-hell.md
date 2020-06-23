@@ -8,7 +8,7 @@ Cover: images/articles/progress/bashrc_conda.jpg
 Tags: windows, bash, git bash, anaconda, virtual environments
 Summary: I've been having trouble with my shells for weeks. The paths were wrong with all of them. Something to do with Anaconda.
 
-# Shell Hell
+# Several Issues
 
 I've been having trouble with my shells for weeks. The paths were wrong with all of them. Something to do with Anaconda.
 
