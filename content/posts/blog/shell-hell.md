@@ -3,8 +3,8 @@ Date: 2019-05-24
 Modified: 2019-08-04
 Lang: en
 Category: Progress
-Slug: progress/shell-hell
-Cover: images/articles/progress/bashrc_conda.jpg
+Slug: blog/shell-hell
+Cover: images/posts/blog/bashrc_conda.jpg
 Tags: windows, bash, git bash, anaconda, virtual environments
 Summary: I've been having trouble with my shells for weeks. The paths were wrong with all of them. Something to do with Anaconda.
 
@@ -31,7 +31,7 @@ For the longest time, I couldn't for the life of me figure out what `'\377\376.'
 
 After learning more bash scripting, I remembered that variables were declared with `$` and could be displayed with `ECHO`, so I ran `ECHO $'\377\376.'` and out came the strange unreadable character at the beginning of the `~/.bashrc` file!
 
-![Git Bash prompt](/images/articles/progress/bashrc_conda.jpg)
+![Git Bash prompt](/images/posts/blog/bashrc_conda.jpg)
 
 **Solution:** After clearing `~/.bashrc` and restarting the shell, the error message was gone.
 

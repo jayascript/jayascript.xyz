@@ -2,9 +2,9 @@ Title: Analysis: Creating an Algorithm to Bypass ComboCompare Automation
 Date: 2020-01-31
 Modified: 2020-06-23
 Lang: en
-Category: Portfolio
-Slug: portfolio/cc-results
-Cover: images/articles/portfolio/cc-results_screenshot.png
+Category: Projects
+Slug: projects/cc-results
+Cover: images/posts/projects/cc-results/cc-results_screenshot.png
 Tags: python, pandas, data science, postgresql, numpy, matplotlib, scikit-learn, seaborn, statsmodels, eda, etl, dataviz, statistics, data analysis, jupyter
 Summary: In this notebook, I present a comprehensive analysis of my attempt to create a machine learning algorithm that will bypass certain parts of the ComboCompare automation.
 

@@ -4,7 +4,7 @@ Modified: 2020-06-21
 Lang: en
 Category: Portfolio
 Slug: portfolio/jayascript-site
-Cover: images/articles/portfolio/jayascript-site_screenshot.jpg
+Cover: images/posts/portfolio/jayascript-site_screenshot.jpg
 Tags: python, pelican, web development, git, markdown, html, css
 Summary: A simple portfolio site built with Pelican, a static site generator for Python.
 

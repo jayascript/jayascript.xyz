@@ -4,7 +4,7 @@ Modified: 2020-03-20
 Lang: en
 Category: Publications
 Slug: publications/realpython-data-science-podcasts
-Cover: images/articles/publications/realpython-data-science-podcasts.jpg
+Cover: images/posts/publications/realpython-data-science-podcasts.jpg
 Tags: python, data science, machine learning
 Summary: The ultimate list of data science podcasts! Over a dozen shows that discuss topics in big data, data analysis, statistics, machine learning, and artificial intelligence.
 

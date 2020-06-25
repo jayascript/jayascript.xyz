@@ -4,7 +4,7 @@ Modified: 2020-03-11
 Lang: en
 Category: Publications
 Slug: publications/realpython-simpy-simulating-with-python
-Cover: images/articles/publications/realpython-simpy-simulating-with-python.jpg
+Cover: images/posts/publications/realpython-simpy-simulating-with-python.jpg
 Tags: python, simpy
 Summary: In this step-by-step tutorial, you'll see how you can use the SimPy package to model real-world processes with a high potential for congestion. You'll create an algorithm to approximate a complex system, and then you'll design and run a simulation of that system in Python.
 

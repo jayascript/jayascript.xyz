@@ -4,7 +4,7 @@ Modified: 2020-06-20
 Lang: en
 Category: Projects
 Slug: projects/nns-essay-eval
-Cover: images/articles/nns-essay-eval/by-group-grammar.jpg
+Cover: images/posts/projects/nns-essay-eval/by-group-grammar.jpg
 Tags: statistics, excel, spss, data analysis
 Summary: An analysis of essay grading by native and non-native Japanese speakers.
 
@@ -42,7 +42,7 @@ The purpose of this exercise was to determine whether there was a difference in 
 The essay and scores were provided by Professor Watanabe. The files were downloaded from a USB drive, and the stats were computed on a personal computer.
 
 <p align="center">
-  <img src="/images/articles/nns-essay-eval/ns-nns-scores.jpg" alt="graders" width="100%" height="" style="">
+  <img src="/images/posts/projects/nns-essay-eval/ns-nns-scores.jpg" alt="graders" width="100%" height="" style="">
   <p style="text-align:center;"><sup><em>Group 1 is Non-Native Speakers (NNS), Group 2 is Native Speakers (NS). Both groups of graders evaluated a single essay on content, organization and grammar.</em></sup>
   </p>
 </p>
@@ -52,7 +52,7 @@ The essay and scores were provided by Professor Watanabe. The files were downloa
 We loaded the Excel data into SPSS and used the software to calculate statistics and perform a t-test. We found that **non-native speakers (NNS, Group 1)** had a higher standard deviation (SD = 2.31) on the total score allotted to the essay. **Native speakers (NS, Group 2)** were much more consistent with their interpretation of the essay (SD = 1.7).
 
 <p align="center">
-  <img src="/images/articles/nns-essay-eval/ns-nns-descriptives.jpg" alt="descriptive statistics all graders" width="100%" height="" style="">
+  <img src="/images/posts/projects/nns-essay-eval/ns-nns-descriptives.jpg" alt="descriptive statistics all graders" width="100%" height="" style="">
   <p style="text-align:center;"><sup><em>Descriptive statistics computed for all 28 graders.</em></sup>
   </p>
 </p>
@@ -60,7 +60,7 @@ We loaded the Excel data into SPSS and used the software to calculate statistics
 There were 28 graders in total. The average scores given on the essay (rounded up) were 8.4 for content, 7.3 for organization, 6.2 for grammar, and 21.9 total.
 
 <p align="center">
-  <img src="/images/articles/nns-essay-eval/ns-nns-groups-stats.jpg" alt="group statistics" width="100%" height="" style="">
+  <img src="/images/posts/projects/nns-essay-eval/ns-nns-groups-stats.jpg" alt="group statistics" width="100%" height="" style="">
   <p style="text-align:center;"><sup><em>Statistics computed on each category by group (NNS vs NS).</em></sup>
   </p>
 </p>
@@ -74,7 +74,7 @@ In our dataset, graders reported their scores for the essay, and whether or not 
 We use an **independent samples t-test** to compare the mean scores for native and non-native Japanese speakers. Our chosen significance level was `a = 0.05`.
 
 <p align="center">
-  <img src="/images/articles/nns-essay-eval/ns-nns-t-test.jpg" alt="independent samples test" width="100%" height="" style="">
+  <img src="/images/posts/projects/nns-essay-eval/ns-nns-t-test.jpg" alt="independent samples test" width="100%" height="" style="">
   <p style="text-align:center;"><sup><em></em></sup>
   </p>
 </p>
@@ -90,7 +90,7 @@ However, the CI for the mean difference of the organization scores **does not** 
 We chose to reject the null hypothesis and conclude that there was a difference in mean score given by native and non-native speakers:
 
 <p align="center">
-  <img src="/images/articles/nns-essay-eval/hypothesis.jpg" alt="hypothesis test summary" width="100%" height="" style="">
+  <img src="/images/posts/projects/nns-essay-eval/hypothesis.jpg" alt="hypothesis test summary" width="100%" height="" style="">
   <p style="text-align:center;"><sup><em></em></sup>
   </p>
 </p>
@@ -106,7 +106,7 @@ We used **continuous fields** and the **Mann-Whitney U test** to further examine
 When considering all graders, the essay received an average content score between 8 and 9:
 
 <p align="center">
-  <img src="/images/articles/nns-essay-eval/hist-content.jpg" alt="histogram of content scores" width="100%" height="" style="">
+  <img src="/images/posts/projects/nns-essay-eval/hist-content.jpg" alt="histogram of content scores" width="100%" height="" style="">
   <p style="text-align:center;"><sup><em>Content scores given by both groups.</em></sup>
   </p>
 </p>
@@ -114,7 +114,7 @@ When considering all graders, the essay received an average content score betwee
 When we look at the groups independently, we can see that the scores are clustered around similar values:
 
 <p align="center">
-  <img src="/images/articles/nns-essay-eval/by-group-content.jpg" alt="content scores by group" width="100%" height="" style="">
+  <img src="/images/posts/projects/nns-essay-eval/by-group-content.jpg" alt="content scores by group" width="100%" height="" style="">
   <p style="text-align:center;"><sup><em>Content scores given, NNS vs. NS.</em></sup>
   </p>
 </p>
@@ -126,7 +126,7 @@ There seems to be no significant difference in the means, as confirmed by our t-
 While the content scores were more variable, organization scores were clustered around the 7 to 8 mark range for all graders in both groups:
 
 <p align="center">
-  <img src="/images/articles/nns-essay-eval/hist-organization.jpg" alt="histogram of organization scores" width="100%" height="" style="">
+  <img src="/images/posts/projects/nns-essay-eval/hist-organization.jpg" alt="histogram of organization scores" width="100%" height="" style="">
   <p style="text-align:center;"><sup><em>Organization scores given by both groups.</em></sup>
   </p>
 </p>
@@ -134,7 +134,7 @@ While the content scores were more variable, organization scores were clustered 
 But here, when comparing the groups separately, we can see the pronounced difference between the means:
 
 <p align="center">
-  <img src="/images/articles/nns-essay-eval/by-group-organization.jpg" alt="organization scores by group" width="100%" height="" style="">
+  <img src="/images/posts/projects/nns-essay-eval/by-group-organization.jpg" alt="organization scores by group" width="100%" height="" style="">
   <p style="text-align:center;"><sup><em>Organization scores given, NNS vs. NS.</em></sup>
   </p>
 </p>
@@ -146,7 +146,7 @@ The non-native speakers in Group 1 gave mostly the same organization score for t
 Grammar scores given showed similar variance to the content scores:
 
 <p align="center">
-  <img src="/images/articles/nns-essay-eval/hist-grammar.jpg" alt="histogram of grammar scores" width="100%" height="" style="">
+  <img src="/images/posts/projects/nns-essay-eval/hist-grammar.jpg" alt="histogram of grammar scores" width="100%" height="" style="">
   <p style="text-align:center;"><sup><em>Grammar scores given by both groups.</em></sup>
   </p>
 </p>
@@ -154,7 +154,7 @@ Grammar scores given showed similar variance to the content scores:
 Similar to the content scores, grammar scores given were more spread out through both groups:
 
 <p align="center">
-  <img src="/images/articles/nns-essay-eval/by-group-grammar.jpg" alt="grammar scores by group" width="100%" height="" style="">
+  <img src="/images/posts/projects/nns-essay-eval/by-group-grammar.jpg" alt="grammar scores by group" width="100%" height="" style="">
   <p style="text-align:center;"><sup><em>Grammar scores given, NNS vs NS.</em></sup>
   </p>
 </p>
@@ -166,7 +166,7 @@ Though Native Speakers in Group 2 providing slightly more high-level scores than
 The essay received a total score of between 20 and 24 points from most graders:
 
 <p align="center">
-  <img src="/images/articles/nns-essay-eval/hist-total.jpg" alt="total scores given" width="100%" height="" style="">
+  <img src="/images/posts/projects/nns-essay-eval/hist-total.jpg" alt="total scores given" width="100%" height="" style="">
   <p style="text-align:center;"><sup><em>Total scores given.</em></sup>
   </p>
 </p>
@@ -174,7 +174,7 @@ The essay received a total score of between 20 and 24 points from most graders:
 Most graders in both groups gave the same score to the essay. However, we can see that scores given by Non-Native Speakers (Group 1) skew higher, while those given by Native Speakers (Group 2) skew lower:
 
 <p align="center">
-  <img src="/images/articles/nns-essay-eval/by-group-total.jpg" alt="total scores by group" width="100%" height="" style="">
+  <img src="/images/posts/projects/nns-essay-eval/by-group-total.jpg" alt="total scores by group" width="100%" height="" style="">
   <p style="text-align:center;"><sup><em>Total scores given by group, NNS vs. NS.</em></sup>
   </p>
 </p>

@@ -4,7 +4,7 @@ Modified: 2018-12-13
 Lang: en
 Category: Publications
 Slug: publications/realpython-python-comments-guide
-Cover: images/articles/publications/realpython-python-comments-guide.jpg
+Cover: images/posts/publications/realpython-python-comments-guide.jpg
 Tags: python, coding best practices
 Summary: Learn how to write Python comments that are clean, concise, and useful. Quickly get up to speed on what the best practices are, which types of comments it's best to avoid, and how you can practice writing cleaner comments.
 

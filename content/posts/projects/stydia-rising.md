@@ -4,7 +4,7 @@ Modified: 2020-06-19
 Lang: en
 Category: Projects
 Slug: projects/stydia-rising
-Cover: images/articles/stydia-rising/Stydia Premiere hashtags limit 1.png
+Cover: images/posts/projects/stydia-rising/Stydia Premiere hashtags limit 1.png
 Tags: data analysis, python, sql, tableau, twitter
 Summary: An analysis of Twitter reactions to the Teen Wolf S05E16 premiere.
 
@@ -151,13 +151,13 @@ print "End: ", datetime.datetime.now().strftime('%Y/%m/%d %H:%M:%S')
 The script produced a database of the following format:
 
 <p align="center">
-  <img src="/images/articles/stydia-rising/Tweets DB TeenWolf.png" alt="Tweets DB TeenWolf" width="100%">
+  <img src="/images/posts/projects/stydia-rising/Tweets DB TeenWolf.png" alt="Tweets DB TeenWolf" width="100%">
   <p style="text-align:center;"><sup><em>Database containing tweets tagged or mentioning #teenwolf. 80,765 tweets collected from Feb. 8, 2016 to Feb. 13, 2016. All dates and times are Japan Standard Time. Note records 48,269 and 48,278 which refer to "Stydia rising."</em></sup>
   </p>
 </p>
 
 <p align="center">
-  <img src="/images/articles/stydia-rising/Tweets DB Stydia.png" alt="Tweets DB Stydia" width="100%">
+  <img src="/images/posts/projects/stydia-rising/Tweets DB Stydia.png" alt="Tweets DB Stydia" width="100%">
   <p style="text-align:center;"><sup><em>Database containing tweets tagged or mentioning #stydia. 34,348 tweets collected from Feb. 7, 2016 to Feb. 13, 2016. All dates and times are Japan Standard Time.</em></sup>
   </p>
 </p>
@@ -177,7 +177,7 @@ Undoubtedly, the answer is yes.
 Below is a visualization of the tweet volume over time during the S05E16 premiere:
 
 <p align="center">
-  <img src="/images/articles/stydia-rising/Tweets During 5x16 Premiere.png" alt="Tweets During 5x16 Premiere" width="50%" height="" style="">
+  <img src="/images/posts/projects/stydia-rising/Tweets During 5x16 Premiere.png" alt="Tweets During 5x16 Premiere" width="50%" height="" style="">
   <p style="text-align:center;"><sup><em></em></sup>
   </p>
 </p>
@@ -187,7 +187,7 @@ There is an obvious spike in Twitter activity at around the 0:44 minute mark. Th
 One of my original questions was whether or not this spike in reaction repeated itself throughout the week. Many shows will premiere at 9 PM in each subsequent time zone - meaning EST viewers will see the show before PST ones. However, this does not seem to be the case for <em>Teen Wolf</em>: of the 80,000 or so tweets pulling during the week, <strong>20,000 occurred during the hour of the 9 PM EST time slot alone</strong>, suggesting that the show airs at the same time across the US (indeed, a quick google search shows that <em>Teen Wolf</em> airs at 6 PM PST).
 
 <p align="center">
-  <img src="/images/articles/stydia-rising/TW week of.png" alt="Teen Wolf week of tweets" width="50%" height="" style="">
+  <img src="/images/posts/projects/stydia-rising/TW week of.png" alt="Teen Wolf week of tweets" width="50%" height="" style="">
   <p style="text-align:center;"><sup><em>Spike in tweets during the S05E16 premiere only (9 PM EST~6 PM PST Feb. 9, corresponding 11 AM JST Feb. 10). Suggesting that S05E16 premiered in all time zones simultaneously.</em></sup>
   </p>
 </p>
@@ -362,7 +362,7 @@ I wrote the output to a database and imported it into Tableau in order to create
 **Most Frequently Used Hashtags Along with #TeenWolf During the S05E16 Premiere**
 
 <p align="center">
-  <img src="/images/articles/stydia-rising/TW Premiere hashtags limit 2.png" alt="TW Premiere hashtags" width="100%" height="" style="">
+  <img src="/images/posts/projects/stydia-rising/TW Premiere hashtags limit 2.png" alt="TW Premiere hashtags" width="100%" height="" style="">
   <p style="text-align:center;"><sup><em>Showing hashtags used along with #TeenWolf during the hour of the S05E16 premiere. Hashtags with at least 2 counts are included.</em></sup>
   </p>
 </p>
@@ -370,7 +370,7 @@ I wrote the output to a database and imported it into Tableau in order to create
 **Most Frequently Used Hashtags Along with #Stydia During the S05E16 Premiere**
 
 <p align="center">
-  <img src="/images/articles/stydia-rising/Stydia Premiere hashtags limit 1.png" alt="Stydia Premiere hashtags" width="100%" height="" style="">
+  <img src="/images/posts/projects/stydia-rising/Stydia Premiere hashtags limit 1.png" alt="Stydia Premiere hashtags" width="100%" height="" style="">
   <p style="text-align:center;"><sup><em>Showing hashtags used along with #Stydia during the hour of the S05E16 premiere. Hashtags with at least 1 count are included.</em></sup>
   </p>
 </p>
@@ -380,7 +380,7 @@ One of my original questions was to see what the trending hashtags were througho
 **Most Frequently Used Hashtags Along with #TeenWolf (Feb. 8 - Feb. 13 JST)**
 
 <p align="center">
-  <img src="/images/articles/stydia-rising/TW Week of Hashtags limit 10.png" alt="TW Week of Hashtags limit 10" width="100%" height="" style="">
+  <img src="/images/posts/projects/stydia-rising/TW Week of Hashtags limit 10.png" alt="TW Week of Hashtags limit 10" width="100%" height="" style="">
   <p style="text-align:center;"><sup><em>Showing hashtags used along with #TeenWolf during the week of Feb. 8 to Feb. 13. Hashtags with at least 10 counts are included.</em></sup>
   </p>
 </p>
@@ -388,7 +388,7 @@ One of my original questions was to see what the trending hashtags were througho
 **Most Frequently Used Hashtags Along with #Stydia (Feb. 7 - Feb. 13 JST)**
 
 <p align="center">
-  <img src="/images/articles/stydia-rising/Stydia Week of Hashtags limit 5.png" alt="Stydia Week of Hashtags limit 5" width="100%" height="" style="">
+  <img src="/images/posts/projects/stydia-rising/Stydia Week of Hashtags limit 5.png" alt="Stydia Week of Hashtags limit 5" width="100%" height="" style="">
   <p style="text-align:center;"><sup><em>Showing hashtags used along with #Stydia during the week of Feb. 7 to Feb. 13. Hashtags with at least 5 counts are included.</em></sup>
   </p>
 </p>
@@ -404,7 +404,7 @@ Furthermore, the all-week #TeenWolf and #Stydia clouds show two very interesting
 I took the tweets for which location data was available and output their counts to a database using a modified version of the `hashtags.py` script. I then visualized the results on a map in Tableau. Note that I could only plot tweets for which location data was available; less than 4% of all tweets. However, the visualization did show me that *Teen Wolf* is indeed an international phenomenon.
 
 <p align="center">
-  <img src="/images/articles/stydia-rising/5x16 Around the World.png" alt="Teen Wolf around the world" width="100%" height="" style="">
+  <img src="/images/posts/projects/stydia-rising/5x16 Around the World.png" alt="Teen Wolf around the world" width="100%" height="" style="">
   <p style="text-align:center;"><sup><em></em></sup>
   </p>
 </p>

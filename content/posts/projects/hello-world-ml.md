@@ -4,7 +4,7 @@ Modified: 2020-06-20
 Lang: en
 Category: Projects
 Slug: projects/hello-world-ml
-Cover: images/articles/hello-world-ml/hwml_007.png
+Cover: images/posts/projects/hello-world-ml/hwml_007.png
 Tags: machine learning, python, statistics, dataviz
 Summary: Determining the best ML algorithm to predict the iris flowers dataset.
 
@@ -75,7 +75,7 @@ This was where I learned that the data was zero-indexed, with the first example 
 I used `dataset.describe` to look at the descriptive statistics for the four features:
 
 <p align="center">
-  <img src="/images/articles/hello-world-ml/hwml_002.jpg" alt="iris flower descriptive statistics" width="100%" height="" style="">
+  <img src="/images/posts/projects/hello-world-ml/hwml_002.jpg" alt="iris flower descriptive statistics" width="100%" height="" style="">
   <p style="text-align:center;"><sup><em></em></sup>
   </p>
 </p>
@@ -95,13 +95,13 @@ After I'd gotten a good grasp of the data, it was time to visualize it to get an
 This step helped me to determine if there were any relationships between the data that could be predicted in the first place.
 
 <p align="center">
-  <img src="/images/articles/hello-world-ml/hwml_003.jpg" alt="iris flower box plot code" width="100%" height="" style="">
+  <img src="/images/posts/projects/hello-world-ml/hwml_003.jpg" alt="iris flower box plot code" width="100%" height="" style="">
   <p style="text-align:center;"><sup><em>Code used to generate a box plot.</em></sup>
   </p>
 </p>
 
 <p align="center">
-  <img src="/images/articles/hello-world-ml/hwml_004.png" alt="iris flower box plots" width="100%" height="" style="">
+  <img src="/images/posts/projects/hello-world-ml/hwml_004.png" alt="iris flower box plots" width="100%" height="" style="">
   <p style="text-align:center;"><sup><em>Iris flower boxplots.</em></sup>
   </p>
 </p>
@@ -109,19 +109,19 @@ This step helped me to determine if there were any relationships between the dat
 I much prefer histograms, so that's what I visualized next:
 
 <p align="center">
-  <img src="/images/articles/hello-world-ml/hwml_005.jpg" alt="iris flower histogram code" width="100%" height="" style="">
+  <img src="/images/posts/projects/hello-world-ml/hwml_005.jpg" alt="iris flower histogram code" width="100%" height="" style="">
   <p style="text-align:center;"><sup><em>Code used to generate histograms.</em></sup>
   </p>
 </p>
 
 <p align="center">
-  <img src="/images/articles/hello-world-ml/hwml_006.png" alt="iris flower histograms" width="100%" height="" style="">
+  <img src="/images/posts/projects/hello-world-ml/hwml_006.png" alt="iris flower histograms" width="100%" height="" style="">
   <p style="text-align:center;"><sup><em>Iris flower histograms. Dr. Brownlee notes that two of the attributes (namely sepal-length and sepal-width) appear to follow the normal distribution, and that we’ll be able to “exploit this assumption” through our algorithms.</em></sup>
   </p>
 </p>
 
 <p align="center">
-  <img src="/images/articles/hello-world-ml/hwml_007.png" alt="iris flower scatterplots" width="100%" height="" style="">
+  <img src="/images/posts/projects/hello-world-ml/hwml_007.png" alt="iris flower scatterplots" width="100%" height="" style="">
   <p style="text-align:center;"><sup><em>Scatterplots pairing all possible features. I noted quite a few linear correlations, most notably between sepal-length/petal-length, petal-width/petal-length, petal-length/sepal-length and petal-length/petal-width.</em></sup>
   </p>
 </p>
@@ -154,7 +154,7 @@ I learned about most of these through Andrew Ng’s course, and the rest through
 The code to build and evaluate these algorithms are deceptively simple. When I took Andrew Ng's course, I had to build them all from scratch. There were pages upon pages of code, all inter-related to one another, and if I messed something up in one document it would wreak havoc in another. This is so easy! As Python is known for, just plug-and-play ;)
 
 <p align="center">
-  <img src="/images/articles/hello-world-ml/hwml_008.jpg" alt="model evaluation" width="100%" height="" style="">
+  <img src="/images/posts/projects/hello-world-ml/hwml_008.jpg" alt="model evaluation" width="100%" height="" style="">
   <p style="text-align:center;"><sup><em>Model evaluation.</em></sup>
   </p>
 </p>
@@ -162,7 +162,7 @@ The code to build and evaluate these algorithms are deceptively simple. When I t
 From Dr. Brownlee’s article, KNN was the best model by far, but my evaluation puts KNN at the same accuracy as CART. He said you could also plot the evaluation results, which might help differentiate the two. So I tried that next:
 
 <p align="center">
-  <img src="/images/articles/hello-world-ml/hwml_009.png" alt="second model evaluation" width="100%" height="" style="">
+  <img src="/images/posts/projects/hello-world-ml/hwml_009.png" alt="second model evaluation" width="100%" height="" style="">
   <p style="text-align:center;"><sup><em>Second model evaluation.</em></sup>
   </p>
 </p>
@@ -178,7 +178,7 @@ From Dr. Brownlee’s article, KNN was the best model by far, but my evaluation 
 After copying his code, this is what I got:
 
 <p align="center">
-  <img src="/images/articles/hello-world-ml/hwml_010.jpg" alt="knn prediction accuracy" width="100%" height="" style="">
+  <img src="/images/posts/projects/hello-world-ml/hwml_010.jpg" alt="knn prediction accuracy" width="100%" height="" style="">
   <p style="text-align:center;"><sup><em>KNN prediction accuracy.</em></sup>
   </p>
 </p>
@@ -190,7 +190,7 @@ Same as the tutorial! An accuracy of 90% for KNN.
 So I got that CART is about the same accuracy as KNN. I'll admit, I wasn't satisfied with simply following the tutorial and stopping here. So I went ahead and tried to run the same code with a decision tree to see if I could get similar predictions:
 
 <p align="center">
-  <img src="/images/articles/hello-world-ml/hwml_011.jpg" alt="Decision tree prediction accuracy" width="100%" height="" style="">
+  <img src="/images/posts/projects/hello-world-ml/hwml_011.jpg" alt="Decision tree prediction accuracy" width="100%" height="" style="">
   <p style="text-align:center;"><sup><em>Decision tree prediction accuracy.</em></sup>
   </p>
 </p>

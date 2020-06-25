@@ -3,8 +3,8 @@ Date: 2018-06-25
 Modified: 2020-05-18
 Lang: en
 Category: Publications
-Slug: publications/realpython-what-can-i-do-with-python
-Cover: images/articles/publications/realpython-what-can-i-do-with-python.jpg
+Slug: publications/realpython-build-with-python
+Cover: images/posts/publications/realpython-build-with-python.jpg
 Tags: python
 Summary: In this article, we offer several different projects, resources, and tutorials that you can use to start building things with Python.
 
