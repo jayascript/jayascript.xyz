@@ -2,7 +2,7 @@ Title: Shell Hell
 Date: 2019-05-24
 Modified: 2019-08-04
 Lang: en
-Category: Progress
+Category: Blog
 Slug: blog/shell-hell
 Cover: images/posts/blog/bashrc_conda.jpg
 Tags: windows, bash, git bash, anaconda, virtual environments
