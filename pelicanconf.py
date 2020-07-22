@@ -11,6 +11,16 @@ PATH = 'content'
 ARTICLE_PATHS = ['posts']
 STATIC_PATHS = ['images', 'files']
 
+# http://docs.getpelican.com/en/stable/plugins.html#how-to-use-plugins
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['pelican-bootstrapify']
+
+BOOTSTRAPIFY = {
+    'table': ['table', 'table-striped', 'table-hover'],
+    'img': ['img-fluid'],
+    'blockquote': ['blockquote'],
+}
+
 TIMEZONE = 'America/New_York'
 DEFAULT_LANG = 'en'
 LOCALE = ('en_US.utf8',)
